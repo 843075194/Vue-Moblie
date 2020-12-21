@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <h1>黑马头条</h1>
    <!-- 路由的出口 -->
     <router-view/>
   </div>
@@ -11,5 +10,9 @@ export default {
 }
 </script>
 <style lang="scss">
-
+  .box {
+    width:200px;
+    height: 100px;
+    background-color: pink;
+  }
 </style>
